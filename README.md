@@ -128,6 +128,29 @@ I used Optum Azure account for all my lab work. Compute resource is stopped or a
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/OptumNazeer_CPUCluster_State.png)
 
+
+## Fixes and Comments in response to the submission feedback
+
+### The hyperdrive run is passed to the ***RunDetails*** widget
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperDriveRunDetailsShow.png)
+
+### Infrastructure : A compute cluster is created using the Azure SDK and the ComputeTarget and AmlCompute objects.
+
+**Created Compute Cluster using AmlCompute and ComputeTarget objects**
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/NewComputeClusterCreated3.png) 
+
+**The delete method of the AmlCompute object is used to remove the cluster following training.**
+
+***cpu_cluster.delete()***
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/CpuCluster3Delete.png)
+
+**Cluster Delete**
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/ComputeCluster3Delete.png)
+
 ### Please find below additional screen shots for above use cases 
 
 ## Hyperdrive Use Case I
