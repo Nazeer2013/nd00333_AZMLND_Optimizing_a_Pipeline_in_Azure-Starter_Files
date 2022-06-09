@@ -38,6 +38,70 @@ This model is then compared to an Azure AutoML run.
 **Image of cluster marked for deletion**
 
 
-## Images
+### Images
+
+## Hyperdrive Use Case 
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_ResultsOverview.png)
+
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_Results1.png)
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_Results2.png)
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_BestChild1.png)
+
+## AutoML User Case I no validation set
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_ResultsOverview.png)
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_ResultsOverview2.png)
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_ResultsOverview3.png)
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_ResultsOverview4.png)
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_Results1.png)
+
+![image]()
+
+![image]()
+
+
+![image]()
+
+![image]()
+
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
