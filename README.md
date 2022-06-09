@@ -100,9 +100,19 @@ In this case I added validation_size as 25% to AutoMLConfig. Results for the bes
 
 **Results: Accuracy: 0.918 with VotingEnsemble as best model selected** 
 
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Overview1.png)
+
 
 ## Pipeline comparison
-**Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
+
+Using AutoML SDK pipeline resulted in slightly better performance of 0.918 accuracy compare to Scikit-learn Hyperdrive 0.916.
+
+AutoML performed better due to number of iteration it could run and tune. Voting ensamble resulted in better accuracy,
+this wasn't an option for HyperDrive.
+
+
+Lower regularization strength (C) and median number of iterations choice resulted in better accuracy for Hyperdrive.
+
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
@@ -137,8 +147,6 @@ In this case I added validation_size as 25% to AutoMLConfig. Results for the bes
 
 
 ## Use Case III
-
-![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Overview1.png)
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_ConfigPrams.png)
 
