@@ -1,9 +1,18 @@
 # Optimizing an ML Pipeline in Azure
 
 ## Overview
-This project is part of the Udacity Azure ML Nanodegree.
-In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
-This model is then compared to an Azure AutoML run.
+
+In this project, I created and optimized an ML pipeline.
+
+I updated custom-coded model using standard Scikit-learn Logistic Regression—the hyperparameters and optimized using HyperDrive.
+
+I also  used AutoML to build and optimize a model on the same dataset, so that you can compare the results of the two methods.
+
+I worked on three different use cases for which I'm attaching images of results 
+
+These models are then compared to an Azure AutoML run.
+
+ 
 
 ## Useful Resources
 - [ScriptRunConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.scriptrunconfig?view=azure-ml-py)
@@ -63,45 +72,15 @@ This model is then compared to an Azure AutoML run.
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_Results1.png)
 
-![image]()
 
-![image]()
+## Usw Case II
 
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Overview1.png)
 
-![image]()
-
-![image]()
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_ConfigPrams.png)
 
 
-![image]()
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Algoview.png)
 
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun2_BestChildPerf.png)
 
