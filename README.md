@@ -47,7 +47,7 @@ My conda jupyter notebook environment details.
 I used Optum Azure account to run all my experiments and did not use Udacity Azure labs.
 
 
-## Scikit-learn Pipeline Use case I
+## Scikit-learn HyperDrive Pipeline Use case I
 
 
 **a) Using Scikit-Learn HyperDrive Hyperparameters:**
@@ -97,6 +97,8 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 **Results: Accuracy: 0.918 with VotingEnsemble as best model selected**
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_ResultsOverview.png)
+
+In this case I initially forgot to add test data validation_size to AutoMLConfig but this resulted in best performance overall.
 
 
 ## Pipeline comparison
