@@ -126,8 +126,6 @@ I would prefer to run more use cases and would like to deep dive into NLP and re
 
 I used Optum Azure account for all my lab work. Compute resource is stopped or at 0 node for clusters.
 
-![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/OptumNazeer_CPUCluster_State.png)
-
 
 ## Fixes and Comments in response to the submission feedback
 
@@ -150,6 +148,10 @@ I used Optum Azure account for all my lab work. Compute resource is stopped or a
 **Cluster Delete**
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/ComputeCluster3Delete.png)
+
+
+
+## Appendix Section
 
 ### Please find below additional screen shots for above use cases 
 
