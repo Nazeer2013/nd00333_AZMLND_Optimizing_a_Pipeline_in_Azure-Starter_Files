@@ -56,7 +56,11 @@ I used Optum Azure account to run all my experiments and did not use Udacity Azu
 
 **a) Using Scikit-Learn HyperDrive Hyperparameters:**
 
-***Pipeline Architecture***
+        ***Pipeline Architecture :***
+
+        **1. Connect to your Workspace using config.**
+        **1. Connect to your Workspace using config.**
+ 
 
 Sampling policy: RANDOM and Parameter space {"--C":["uniform",[0.1,0.4]],"--max_iter":["choice",[[50,100,200,250]]]}
 
