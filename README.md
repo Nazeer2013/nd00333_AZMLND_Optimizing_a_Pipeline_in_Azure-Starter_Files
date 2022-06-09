@@ -47,7 +47,7 @@ My conda jupyter notebook environment details.
 I used Optum Azure account to run all my experiments and did not use Udacity Azure labs.
 
 
-## Scikit-learn Pipeline
+## Scikit-learn Pipeline Use case I
 
 
 **a) Using Scikit-Learn HyperDrive Hyperparameters:**
@@ -92,7 +92,7 @@ Lower regularization strength (C) and median number of iterations choice resulte
 Any run that doesn't fall within the slack factor or slack amount of the evaluation metric with respect to the best performing run will be terminated.
 
 
-## AutoML User Case I without validation data size
+## AutoML User Case II without validation data size
 
 **Results: Accuracy: 0.918 with VotingEnsemble as best model selected**
 
@@ -112,7 +112,7 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 
 ### Images
 
-## Hyperdrive Use Case 
+## Hyperdrive Use Case I
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_ResultsOverview.png)
 
@@ -122,7 +122,7 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_Results2.png)
 
 
-## AutoML User Case I without validation data size
+## AutoML User Case II without validation data size
 
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_ResultsOverview2.png)
@@ -134,7 +134,7 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_Results1.png)
 
 
-## Use Case II
+## Use Case III
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Overview1.png)
 
