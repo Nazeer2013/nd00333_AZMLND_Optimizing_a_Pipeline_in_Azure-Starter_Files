@@ -34,13 +34,6 @@ Parameters considered to run load prediction are  numeric, strings and boolean l
 As described I ran three use cases first using HyperDrive and two using AutoML SDK
 
 
-
-
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
-
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
-
-
 My conda jupyter notebook environment details.
         python version: 3.8.5, azureml version: 1.41.0, sklearn version: 1.0.2
 
