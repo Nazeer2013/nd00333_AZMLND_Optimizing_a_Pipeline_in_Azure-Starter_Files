@@ -129,7 +129,7 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun1_Results1.png)
 
 
-## Usw Case II
+## Use Case II
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Overview1.png)
 
@@ -139,4 +139,8 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoML_Run2_Algoview.png)
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/AutoMLRun2_BestChildPerf.png)
+
+
+## References:
+https://azure.github.io/azureml-sdk-for-r/reference/bandit_policy.html
 
