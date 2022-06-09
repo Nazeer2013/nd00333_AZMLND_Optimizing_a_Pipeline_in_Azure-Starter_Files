@@ -101,6 +101,13 @@ Any run that doesn't fall within the slack factor or slack amount of the evaluat
 In this case I initially forgot to add test data validation_size to AutoMLConfig but this resulted in best performance overall.
 
 
+## AutoML User Case III witho validation data size
+
+In this case I added validation_size as 25% to AutoMLConfig. Results for the best fit model 'VotingEnsemble' were same.
+
+**Results: Accuracy: 0.918 with VotingEnsemble as best model selected** 
+
+
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
