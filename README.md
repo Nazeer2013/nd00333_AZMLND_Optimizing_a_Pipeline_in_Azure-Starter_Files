@@ -114,15 +114,20 @@ this wasn't an option for HyperDrive.
 Lower regularization strength (C) and median number of iterations choice resulted in better accuracy for Hyperdrive.
 
 
+Given the amount of processing cost and time overhead with AutoML, I would prefer HyperDrive option as accuracy for both
+cases is almost same.
+
+
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+
+I would prefer to run more use cases and would like to deep dive into NLP and recommendation systems.
 
 ## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
+
+I used Optum Azure account for all my lab work. Compute resource is stopped or at 0 node for clusters.
 
 
-### Images
+### Please find below additional screen shots for above use cases 
 
 ## Hyperdrive Use Case I
 
