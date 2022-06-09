@@ -12,9 +12,13 @@ I worked on three different use cases for which I'm attaching images of results
 
 These models are then compared to an Azure AutoML run.
 
- 
+
+
+
+
 
 ## Useful Resources
+
 - [ScriptRunConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.scriptrunconfig?view=azure-ml-py)
 - [Configure and submit training runs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-set-up-training-targets)
 - [HyperDriveConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.hyperdriveconfig?view=azure-ml-py)
@@ -22,12 +26,48 @@ These models are then compared to an Azure AutoML run.
 
 
 ## Summary
+
+For a given set of banking data predict whether a customer will be interested in borowing loan.
+Parameters considered to run load prediction are  numeric, strings and boolean like age, job, marital, education, loan, default etc. 
+
+
+As described I ran three use cases first using HyperDrive and two using AutoML SDK
+
+
+
+
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
+
+My conda jupyter notebook environment details.
+        python version: 3.8.5, azureml version: 1.41.0, sklearn version: 1.0.2
+
+I used Optum Azure account to run all my experiments and did not use Udacity Azure labs.
+
+
 ## Scikit-learn Pipeline
+
+
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+
+
+
+**a) Using Scikit-Learn HyperDrive Hyperparameters:**
+
+***Pipeline Architecture***
+
+Sampling policy: RANDOM and Parameter space {"--C":["uniform",[0.1,0.4]],"--max_iter":["choice",[[50,100,200,250]]]}
+
+Early termination policy: BANDIT with Properties {"evaluation_interval":1,"delay_evaluation":5,"slack_factor":0.2}
+
+**Accuracy: 0.916 at Max iterations: 200 and Regularization Strength: 0.155**
+
+![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_BestChild1.png)
+
+
+
 
 **What are the benefits of the parameter sampler you chose?**
 
@@ -58,7 +98,6 @@ These models are then compared to an Azure AutoML run.
 
 ![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_Results2.png)
 
-![image](https://github.com/Nazeer2013/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/images/HyperdriveRun_BestChild1.png)
 
 ## AutoML User Case I no validation set
 
